@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ogero Derrick</title>
+    <title>Ogero Derrick-Self-taught Full Stack GIS Developer from Nairobi Kenya.</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -12,13 +12,30 @@
         <div class="logo">Ogero Derrick</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
-
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ogero Derrick</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu">HOME</a></li>
+                <li><a href="#about" onclick="toggleMenu">ABOUT</a></li>
+                <li><a href="#experience" onclick="toggleMenu">SKILLS</a></li>
+                <li><a href="#projects" onclick="toggleMenu">PROJECTS</a></li>
+                <li><a href="#contact" onclick="toggleMenu">CONTACT</a></li>
+            </div>
+        </div>
     </nav>
     <script src="script.js"></script>
 </body>
